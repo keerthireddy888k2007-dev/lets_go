@@ -1,0 +1,15 @@
+public class ArrayAverage {
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 25, 7, 45, 18};
+
+        int sum = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+
+        double average = (double) sum / numbers.length;
+        System.out.println("Sum = " + sum);
+        System.out.println("Average = " + average);
+    }
+}
